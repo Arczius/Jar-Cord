@@ -1,2 +1,2 @@
-# Jar-Cord
-My Own Personal Tweaks
+# Jar-Cord - My own personal Discord tweaks
+

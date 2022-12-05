@@ -1,0 +1,9 @@
+*.css
+**
+**/**
+
+!.gitignore
+!LICENSE
+!README.md
+
+!jarcord-*.theme.css

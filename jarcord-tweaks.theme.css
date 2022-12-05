@@ -1,0 +1,12 @@
+/**
+ * @name JarCord - Tweaks
+ * @author jar#1117
+ * @description JarCord tweaks for Discord
+ * @version 0.0.1
+ */
+
+article div img{
+    width: 30px !important;
+    height: 30px !important;
+}
+

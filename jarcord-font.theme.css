@@ -1,0 +1,75 @@
+/**
+ * @name JarCord - Bring Old Font Back
+ * @author Jar#1117
+ * @description BRING BACK YOUR OLD BEAUTIFUL DISCORD FONT
+ * @version 0.0.4
+ */
+
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
+
+
+:root{
+    --font-primary: "Whitney Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    --font-alt-h: Whitney, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    --font-display: "ABC Ginto Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-headline: "ABC Ginto Nord", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucinda Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus mono L", Monaco, "Courier New", Courier, monospace;
+}
+
+h1,h2,h3,h4,h5,h6, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+    font-family: var(--font-alt-h) !important;
+}
+
+header div {
+    font-family: var(--font-alt-h) !important;
+}
+
+article div, 
+article div span {
+    font-family: var(--font-alt-h) !important;
+}
+
+button div {
+    font-family: var(--font-alt-h) !important;
+}
+
+div[data-text-variant="text-xs/bold"] {
+    font-family: var(--font-alt-h) !important;
+}
+
+div[role="tablist"] div {
+    font-family: var(--font-alt-h) !important;
+}
+
+a[href] div,
+a[href] div strong {
+    font-family: var(--font-alt-h) !important;
+}
+
+
+div[role="listitem"] span,
+div[role="listitem"] div,
+div[role="listitem"] div strong {
+    font-family: var(--font-alt-h) !important;    
+}
+
+div[aria-label="Quick switcher"] input::-webkit-input-placeholder,
+div[aria-label="Quick switcher"] input:-moz-placeholder,
+div[aria-label="Quick switcher"] input::-moz-placeholder,
+div[aria-label="Quick switcher"] input:-ms-input-placeholder,
+div[aria-label="Quick switcher"] input::-ms-input-placeholder,
+div[aria-label="Quick switcher"] input::placeholder {
+    font-family: var(--font-alt-h) !important;
+}
+
+div[aria-label="Quick switcher"] div[role="listbox"] div {
+    font-family: var(--font-alt-h) !important;
+}
+
+form div:nth-of-type(5) span{
+    font-family: var(--font-alt-h) !important;
+}
+
+span[role="button"]{
+    font-family: var(--font-alt-h) !important;
+}
