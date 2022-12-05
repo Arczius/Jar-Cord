@@ -2,10 +2,11 @@
  * @name JarCord - Bring Old Font Back
  * @author Jar#1117
  * @description BRING BACK YOUR OLD BEAUTIFUL DISCORD FONT
- * @version 0.0.4
+ * @version 0.0.5
  */
 
 @import url('https://fonts.cdnfonts.com/css/whitney-2');
+/* @import url('./whitney2/whitney2.css'); */
 
 
 :root{
@@ -70,6 +71,10 @@ form div:nth-of-type(5) span{
     font-family: var(--font-alt-h) !important;
 }
 
-span[role="button"]{
+*[role="button"]{
+    font-family: var(--font-alt-h) !important;
+}
+
+a[role="link"] div div{
     font-family: var(--font-alt-h) !important;
 }
